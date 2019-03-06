@@ -1,10 +1,10 @@
 <?php
 // GitHub Webhook Secret.
 // Keep it the same with the 'Secret' field on your Webhooks / Manage webhook page of your respostory.
-$secret = "";
+$secret = "/www/wwwroot/git.mo1120.com";
 // Path to your respostory on your server.
 // e.g. "/var/www/respostory"
-$path = "";
+$path = "q20031120";
 // Headers deliveried from GitHub
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
 if ($signature) {
